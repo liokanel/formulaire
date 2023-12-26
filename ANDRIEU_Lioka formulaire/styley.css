@@ -1,0 +1,55 @@
+.burger-icon {
+    cursor: pointer;
+}
+
+.bar {
+     width: 25px;
+     height: 3px;
+     background-color: #ff00d0;
+     margin: 6px 0;
+     transition: 0.4;
+
+}
+/*Styles pour le Menu de Navigation */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu li {
+    padding: 15px;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: #868686;
+    font-size: 18px;
+}
+.menu a {
+    text-decoration: none;
+    color: #ff00f7;
+
+
+}.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.allezla{
+    background-color: black;
+    color: beige;
+}
+.telais{ 
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.telais2{
+    background-color: black;
+    color: beige;
+}
